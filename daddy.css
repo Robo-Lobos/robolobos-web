@@ -1,0 +1,62 @@
+<style>body { margin: 0;
+	padding: 0; }
+#contentMain { height:100vh; }
+#contentLayout { color: #111111;
+	font-family: GD Sherpa,arial;
+	min-height: 100%;
+	display: grid;
+	grid-template-rows: auto 1fr auto; }
+#domain { font-size: 48px;
+	font-weight: 600;
+	line-height: 60px;
+	text-align: center;
+	padding-bottom: 5px; }
+#domainInfo { font-size: 20px;
+	font-weight: 600;
+	line-height: 28px;
+	text-align: center;
+	padding-bottom: 5px; }
+#getButton { padding-top: 10px;
+	padding-bottom: 20px; }
+#getButtonBox { background-color: #111111;
+	color: white;
+	font-size: 16px;
+	width: 248px;
+	margin: auto;
+	text-align: center; }
+#getButtonBoxLink { display: block;
+	line-height: 50px;
+	text-decoration: none;
+	font-weight: bold;
+	color: white; }
+#relatedLinks, #ads { border: solid #D6D6D6 1px;
+	background-color: #FFFFFF; }
+#privacy a { color: #111;
+	text-decoration: none; }
+#privacy a:hover { color: #111;
+	text-decoration: underline; }
+.center { width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center; }
+#verizon-feed { width: 100%;
+	max-width: 800px;
+	padding: 1px,; }
+#verizon-feed span { color: #929292; }
+#verizon-feed a { text-decoration: none;
+	color:  #111111; }
+#verizon-feed .verizon-rs ul { border: 1px solid black; }
+#verizon-feed .verizon-ads { border: 1px solid black;
+	padding: 8px; }
+#verizon-feed .verizon-ads .adLink { text-decoration: underline;
+	color: #0000EE; }
+#relatedLinks, #ads { margin: 0px;
+	width: 788px;
+	min-width: 0px;
+	max-width: 788px;
+	border: solid #D6D6D6 1px;
+	padding: 16px 32px 32px; }.adRow > * { margin: 0px 20px 0px 20px; }.adRow { width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: start; }</style>
