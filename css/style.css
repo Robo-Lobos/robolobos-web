@@ -1,7 +1,7 @@
 /* pretty please keep all styles in here, not in the html */
 /* help me */
 body {
-    background-image: url("mat.jpg");
+    background-image: url("../images/mat.jpg");
     text-shadow: 0 0 20px #fff;
     text-align: center;
     font-size: xx-large;

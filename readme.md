@@ -5,5 +5,6 @@ Github should handle the rest of logging the coding process for the website so t
 
 
 CODING NOTES FOR ANYONE ON THE TEAM THAT WANTS TO CONTRIBUTE:
-    nothing yet, im gonna get something going first and then put stuff here
+    1. The top bar is edited in a central location at /scripts/navBar.js. Edits should be made there to add a new link. To add the navbar to a page, read the comment located at the top of the navBar.js.
+    
     
