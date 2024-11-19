@@ -36,7 +36,7 @@ function loadFooter() { //<div id="footer"><script src="../scripts/codeFrag.js">
                 <small style="color: white; text-shadow: 2px 2px 4px rgba(0,0,0,0.8);">RoboLobos • Building the future</small>
             </div>
             <div class="footer-section" style="margin: 0 1em;">
-                <small style="color: white; text-shadow: 2px 2px 4px rgba(0,0,0,0.8);">contact@robolobos.club</small>
+                <small style="color: white; text-shadow: 2px 2px 4px rgba(0,0,0,0.8);">mail@robolobos.club</small>
             </div>
             <div class="footer-section" style="margin: 0 1em;">
                 <a href="https://github.com/Robo-Lobos" class="social-link"><small style="color: white; text-shadow: 2px 2px 4px rgba(0,0,0,0.8);">GitHub</small></a>
