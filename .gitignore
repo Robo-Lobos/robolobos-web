@@ -1,0 +1,4 @@
+# ignores node_modules AND package files to make the project both lighter and prettier in github
+node_modules/
+package-lock.json
+package.json
