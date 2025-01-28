@@ -15,10 +15,10 @@ function loadNavbar() { //<div id="navbar"><script src="../scripts/navBar.js"></
     const navbarHTML = `
         <div style="text-align: right;">
           <ul>
-            <li><a href="../" class="rainbow_text_animated">Home</a></li>
-            <li><a href="../team" class="rainbow_text_animated">Team</a></li>
-            <li><a href="../docs" class="rainbow_text_animated">Docs</a></li>
-            <li><a href="../lebonbon/" class="rainbow_text_animated">Lebonbon</a></li>
+            <li><p><a href="../" class="rainbow_text_animated">Home</a></p></li>
+            <li><p><a href="../team" class="rainbow_text_animated">Team</a></p></li>
+            <li><p><a href="../docs" class="rainbow_text_animated">Docs</a></p></li>
+            <li><p><a href="../lebonbon/" class="rainbow_text_animated">Lebonbon</a></p></li>
             <p style="text-align: right;" class="rainbow_text_animated">Robolobos #22289</p>
           </ul>
         </div>
