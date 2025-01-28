@@ -13,13 +13,16 @@ To add a code fragment to your page, use this format (with codeFragment, and loa
 
 function loadNavbar() { //<div id="navbar"><script src="../scripts/navBar.js"></script><script>loadNavbar();</script></div>
     const navbarHTML = `
-      <ul>
-        <li><a href="../" class="rainbow_navbar_text_animated">Home</a></li>
-        <li><a href="../team" class="rainbow_navbar_text_animated">Team</a></li>
-        <li><a href="../docs" class="rainbow_navbar_text_animated">Docs</a></li>
-        <li><a href="../lebonbon/" class="rainbow_navbar_text_animated">Lebonbon</a></li>
-      </ul>
-    `;
+        <div style="text-align: right;">
+          <ul>
+            <li><a href="../" class="rainbow_text_animated">Home</a></li>
+            <li><a href="../team" class="rainbow_text_animated">Team</a></li>
+            <li><a href="../docs" class="rainbow_text_animated">Docs</a></li>
+            <li><a href="../lebonbon/" class="rainbow_text_animated">Lebonbon</a></li>
+            <p style="text-align: right;" class="rainbow_text_animated">Robolobos #22289</p>
+          </ul>
+        </div>
+        `;
     document.getElementById('navbar').innerHTML = navbarHTML;
   }
 
@@ -33,7 +36,7 @@ function loadFooter() { //<div id="footer"><script src="../scripts/codeFrag.js">
             padding: 0.5em;
             background: linear-gradient(to bottom, #000000, #333333);">
             <div class="footer-section" style="margin: 0 1em;">
-                <small style="color: white; text-shadow: 2px 2px 4px rgba(0,0,0,0.8);">RoboLobos • Building the future</small>
+                <small style="color: white; text-shadow: 2px 2px 4px rgba(0,0,0,0.8);">RoboLobos • 22289</small>
             </div>
             <div class="footer-section" style="margin: 0 1em;">
                 <small style="color: white; text-shadow: 2px 2px 4px rgba(0,0,0,0.8);">mail@robolobos.club</small>
